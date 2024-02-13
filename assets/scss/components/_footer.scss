@@ -1,0 +1,236 @@
+footer .countries-logo, footer .footer-links {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    // background-color: #1f2f40;    
+}
+
+footer .countries-logo li {
+    margin: 20px;
+}
+
+footer .countries-logo a {
+    display: block;
+    color: #fff;
+}
+footer .countries-logo .flag {
+    width: 58px;
+    margin: 0 auto;
+    display: block;
+}
+  
+footer .countries-logo .campus {
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 800;
+    padding: 10px 14px;
+    margin-top: 10px;
+    border-radius: 30px;   
+    &:hover{
+        background-color: #86162d;
+    }
+}
+
+footer .footer-links {
+    margin: 20px 0 0 -60px;
+    font-size: 14px;
+    justify-content: space-between;
+}
+footer .footer-links .col {
+    padding: 30px 0 0 60px;
+    max-width: 460px;
+}
+footer .footer-links .title {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 19px;
+    margin-bottom: 18px;
+}
+footer .footer-links ul a {
+    display: inline-block;
+    vertical-align: top;
+    padding: 8px 0;
+    color: #fff;
+}
+
+footer .footer-links .footer-contacts {
+    font-size: 16px;
+}
+footer .footer-links .footer-contacts a {
+    font-weight: 700;
+    color: #7e8f9a;
+}
+#footer{
+    background-color: #1f2f40;
+    color: #ffffff;
+}
+footer .social-wrapper .texxt {
+    margin-left: 10px;
+    font-weight: 800;
+    font-size: 8px;
+}
+#footer p{
+    font-size: 15px;
+}
+footer .social-wrapper, footer .social-wrapper .social {
+    display: flex;
+}
+footer .social-wrapper .social a {
+    margin-right: 6px;
+    width: 34px;
+}
+footer .social-wrapper .social a:hover {
+    opacity: .6;
+}
+
+
+footer .countries-logo .flag img{
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    display: block;
+
+}
+footer .wrapper{
+    padding:0 40px !important;
+}
+@media only screen and (max-width: 1470px) {
+  footer .countries-logo li {
+    margin: 10px;
+  }
+  footer .footer-links {
+    font-size: 13px;
+    margin-left: -40px;
+  }
+  footer .footer-links .col {
+    padding: 20px 0 0 40px;
+    max-width: 370px;
+  }
+  footer .countries-logo{
+    flex-wrap: nowrap;
+}
+}
+
+
+@media only screen and (max-width: 1100px) {
+
+    .content-wrapper {
+        padding: 30px 0px;
+    }
+    .footer-links{
+      margin-left: -40px;
+    }
+    footer .footer-links .col {
+     max-width: none;
+     flex: 0 0 50%;
+    }
+    footer .wrapper{
+        padding: 0 20px !important;
+    }
+    footer .countries-logo .flag {
+        width: 50px;
+    }
+    footer .countries-logo .flag {
+        width: 44px;
+    }
+    
+    .enrollment{
+        background-color: #fff;
+    }
+     
+}
+@media only screen and (max-width: 900px) {
+    footer .countries-logo{
+        flex-wrap: wrap;
+    }
+
+}
+@media only screen and (max-width: 670px) {
+    #footer .footer-links {
+     margin-top: -20px;
+    }
+}
+@media only screen and (max-width: 600px) {
+
+    .slider .slide img {
+        width: 256px;
+        height: 100px;
+    }
+
+}
+
+
+@media only screen and (max-width: 570px) {
+
+
+    footer .footer-links{
+        flex-direction: column;
+    }
+    #footer2 .button-section .buton {
+        position: relative;
+        margin: 10px auto;
+    }
+    footer .social-wrapper {
+        flex-direction: column;
+    }
+    footer .footer-links .col {
+        text-align: center;
+    }
+    footer .social-wrapper {
+        align-items: center;
+    }
+    .col section p{
+        text-align: center;
+    }
+}
+@media only screen and (max-width: 540px) {
+    footer .countries-logo {
+       flex-direction: column;
+       align-items: center;
+    }
+    .slider .slide img{
+        width: 250px;
+    }
+
+}
+@media only screen and (max-width: 400px) {
+
+   footer .wrapper{
+       padding: 0px 10px;
+   }
+   footer .countries-logo li{
+    margin: 19px;
+   }
+   header {
+    padding: 15px;
+   }
+   footer .countries-logo{
+    flex-direction: column !important;
+   }
+}
+
+@media only screen and (max-width: 360px) {
+
+    footer .footer-links {
+        font-size: 10px;
+        margin-left: -54px;
+    }
+    footer p{
+        font-size: 14px;
+    }
+    footer .footer-links .title{
+        font-size: 15px;
+    }
+    .content-wrapper p{
+        font-size: 16px;
+    }
+    .programmes{
+     font-size: 15px;
+    }
+
+}

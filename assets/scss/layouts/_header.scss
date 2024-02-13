@@ -1,0 +1,426 @@
+
+
+header{
+    padding: 0 30px;
+    padding: 0px;
+    z-index: 1000;
+    position: fixed;
+    top:0;
+    left:0;
+    width: 100%;
+    border-bottom: 5px solid green;
+    max-height: 54%;
+    background: $myfooter-bg;    
+      .header-wrapper {
+        max-width: 1440px;
+        margin: 0 auto;
+        display: table;
+        width: 100%;
+        background: yellow;
+        background: $myfooter-bg;
+        padding: 0px 20px;
+       
+      }
+
+      .col {
+        display: inline-block;
+        vertical-align: top;
+      }
+      .col.left{
+        width: 124px;
+        // display: none;
+      }
+      .col.right{
+        text-align: right;
+        position: relative;
+        left: 5em;
+        left: 0em;
+        bottom: 1em;
+        // display: none;
+        // font-size: 30px;
+      }
+      .header-prospects{
+        max-width: 1440px;
+        margin: 0 auto;
+        display: table;
+        width: 100%;        
+        display: flex;
+        justify-content: space-between;
+        padding: 0px 20px;
+        display: none;
+        // background: green;
+        background:$primary-color;
+        .col {
+          display: inline-block;
+          vertical-align: middle;
+
+        }
+        .col.left{
+          min-width: 587px;
+          display: flex;
+          justify-content: space-between;
+          padding: 12px 0px;
+
+        }
+        #main-nav a {
+           font-size: 14px;
+           line-height: 15px;
+           color:$mytext;
+        }
+        .col.right {
+          text-align: right;
+          position: relative;
+          left: 0em;         
+        }
+        .one{
+          margin-top: 0px;
+        }
+
+      }
+}
+
+#main-nav{
+    // font-size: 0;
+    // display: inline-block;
+    position: relative;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1em;
+}
+#main-nav a {
+    display: inline-block;
+    // line-height: 120px;
+    // margin-right: 19px;
+    position: relative;
+    margin: 10px 26px;
+    font-size: 14px;
+    line-height: 35px;
+
+}
+
+.content-wrapper{
+  padding: 60px 0px;
+}
+.header-section {
+  display: flex;
+  width: 100%;
+  margin-top: 2em;
+  gap:4em;
+
+  // .col {
+    // display: table;
+    // display: flex;
+    // vertical-align: top;
+
+    .col-left {
+      padding-right: 30px;
+      width: 54%;
+      display: flex;
+      gap:3em;
+      color: $primary-color;
+    }
+    h1{
+      text-transform: uppercase;
+      padding:0px 0px 6px;
+      font-size: clamp(16px, 2vw, 24px);
+
+      
+    }
+    .col-right{
+      // text-align: center;
+      padding: 0px 0 0 1em;
+      // background-color: red;
+      // position: absolute;
+      // right:5em;
+    }
+}
+.programmes{
+  background: $primary-color;
+  cursor: pointer;
+  color:$myfooter-bg;
+  padding: 10px;
+  font-size: 19px;
+  text-transform: uppercase;
+  border-radius: 5px;
+   &:hover{
+    background-color: $myfooter-bg;
+    color: $primary-color;
+    border: 2px solid $primary-color;
+   }
+}
+.duration{
+  margin-top: 2em;
+}
+
+#botho-navs{
+    header .col.right {
+    text-align: right;
+    position: relative;
+    left: 0em;
+    bottom: 0em;
+    }
+}
+ .header-wrapper #main-nav{
+  left: 11em;
+  padding: 0px 10px;
+ }
+ 
+.header-prospects {
+         width: 100%;
+    #main-nav a{
+    margin: 10px 19px;
+    line-height: 20px;
+    font-size: 15px;
+    display: none; 
+    
+}
+
+
+
+/*aditional info*/
+header{
+        background: yellow;
+           .head-prospectives {
+                max-width: 1440px;
+                margin: 0 auto;
+                display: table;
+                 width: 100%;
+                display: flex;
+                 justify-content: space-between;
+                 padding: 0px 20px;
+                   .nav {
+                      display: inline-block;
+                      vertical-align: middle;
+                       .nav-left {
+                         min-width: 587px;
+                        display: flex;
+                        justify-content: space-between;
+                        padding: 12px 0px;
+                        }                   
+                        .nav-right {
+                           text-align: right;
+                            position: relative;
+                            left: 0em;
+                                .nav-section {
+                                  position: relative;
+                                  padding: 20px;
+                                  display: flex;
+                                  justify-content: space-between;
+                                  /* margin-top: 1em; */
+                                 .nav-section {
+                                   font-size: 14px;
+                        /* line-height: 11px; */
+                                   color: #000;                  
+                      
+                                     
+                                      a {
+                                        font-size: 14px;
+                                        line-height: 15px;
+                                        color: #000;
+                                      }
+                                 }
+                                }
+             
+                        }
+                    }
+           }
+    
+}
+
+.botho-logo img{
+
+  width: 100%;
+  max-width: 93px;
+  max-height: 86px;
+  position: absolute;
+}
+
+header .header-prospects {
+      display: none;
+
+    } 
+.nav-section a {
+  margin: 10px 19px;
+  line-height: 20px;
+  font-size: 15px; }
+}
+header {
+  .head-prospectives {
+    display: flex;
+    max-width: 1440px;
+      margin: 0 auto;
+      display: table;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      padding: 0px 20px;
+      background: #fff;
+     height: 50px;
+  }
+}
+.head-prospectives .nav {
+           display: inline-block;
+           vertical-align: top;
+}
+.nav-right {
+                 text-align: right;
+                 position: relative;
+                 left: 5em;
+                 left: 0em;
+}
+.nav-left {
+   padding: 15px 0px;
+}
+.nav-left a{
+  margin-right: 8px;
+
+}
+.nav-section {
+                  position: relative;
+                  padding: 10px 0px;
+                  display: flex;
+                  justify-content: space-between;
+                  // margin-top: 1em;
+                  height: 50px;
+}
+.nav-section a {
+                           font-size: 14px;
+                          //  line-height: 15px;
+                            color: #0000;
+                           margin: 8px 19px;
+                           display: inline-block;
+                           position: relative;
+                               margin: 8px 28px;
+                             font-size: 12px;
+                            //  line-height: 2px;
+                             color: red;
+}
+                                  #news{
+                                   color: #0000;
+                                   }
+@media only screen and (max-width: 1920px) {
+
+    header .head-prospectives{
+      max-width:1920px;
+      margin: 0 auto;
+      width: 100%;     
+       display: flex;
+       justify-content: space-between;
+       padding: 0px 20px;
+       background: #fff;
+       height: 50px;
+
+    }
+
+    header .header-wrapper {
+      max-width: 1920px;
+      margin: 0 auto;
+      display: table;
+      width: 100%;
+      background: yellow;
+      background: #86162d;
+      padding: 0px 20px;
+      display: flex;
+      justify-content: space-between;
+     }
+     header .col.right {
+      text-align: right;
+      position: relative;
+      left: 0em;
+      // left: 12em;
+      bottom: 1em;
+     }
+     .header-wrapper #main-nav {
+      // left: 28em;
+      padding: 0px 10px;
+      left:-1em;
+    }
+     
+}
+                                
+@media only screen and (max-width: 1470px) {
+    header{
+      height:120px;
+    }
+  
+    #nav-section{
+      top:3em;
+      position: absolute;
+    }
+
+}
+
+@media only screen and (max-width: 1300px) {
+
+  .nav-section a{
+    margin: 8px;
+  }
+  .header-wrapper #main-nav{
+    left: 5em;
+  }  
+  #nav-section{
+    position: absolute;
+    top:0em;
+  }
+  header .head-prospectives{
+    margin: 0 auto;
+  }
+  #nav-section{
+    top:3em;
+    position: absolute;
+  }
+
+}
+
+
+@media only screen and (max-width: 1100px) {
+
+      .nav-section {
+        display: none;
+      }
+      header .head-prospectives{
+        display: none;
+      }
+      .header-wrapper #main-nav{
+        display: none;
+      }
+      .header-wrapper{
+        height: 50px;
+      }
+      header{
+        padding: 20px;
+        height: 80px;
+      }
+      .content-wrapper {
+        padding: 30px 0px;
+      }
+      header .head-prospectives{      
+        display: none;
+       } 
+       #nav-section {
+        top: 1em;
+        position: absolute;
+       }
+}
+@media only screen and (max-width: 970px) {
+  #nav-section{
+    position: absolute;
+    top:0em;
+  }
+}
+@media only screen and (max-width: 570px) {
+
+  .botho-logo img{
+    max-height: 93px;
+  }
+  .header-wrapper {
+     top:0em;
+     position: absolute;
+  }
+
+  .header-wrapper{
+    position:absolute;
+    top:0em;
+  }
+}

@@ -1,0 +1,140 @@
+.courses{
+    background-color: $primary-color;
+      .medium{
+        // max-width: 600px;
+        margin: 0 auto;
+      }
+}
+
+.slide-parent{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: pink;
+  .slide-container {
+    max-width: 1120px;
+    width: 100%;
+    background: grey;
+  }
+
+
+}
+#one{
+  background: palegreen!important;
+  
+}
+
+
+#one{
+  display: flex;
+  .wrapper{
+    display: flex;
+     flex-direction: column;
+    
+  }
+}
+
+.courses {
+  width: 100%;
+  .slide-container{
+    max-width: 1280px;
+    width: 100%;
+  }  
+  
+     .card {
+      border-radius: 25px;
+      background-color: blue;
+      width: calc(100% / 3 - 25px !important); /* Adjust the width accordingly */
+      margin-right: 25px; /* Keep the margin for spacing */
+     }
+     .slide-content {
+      margin: 0px;
+      padding: 45px 20px;
+      background: #77c70f;
+      overflow: hidden;
+      display: flex; /* Enable flexbox to distribute space evenly */
+    }
+    .swiper-wrapper {
+      position: relative;
+      width: calc(100% * 3); /* Adjust based on the number of cards per slide */
+      height: 100%;
+      z-index: 1;
+      display: flex;
+      transition-property: transform;
+      box-sizing: content-box;
+  }
+ 
+   
+  
+.swiper-slide {
+    flex-shrink: 0;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transition-property: transform;
+    display: block;
+    width: 340px !important;
+    margin-right: 25px;
+}
+}
+
+.courses{
+
+  background-color: $primary-color;
+  
+     .swiper-slide {
+     flex-shrink: 0;
+     width: 100%;
+     height: 100%;
+     position: relative;
+     transition-property: transform;
+     display: block;  
+     margin-right: 25px; }
+  
+
+}
+
+#one {
+  // background-color: $primary-color;
+
+   .card {
+      width: 394px !important;
+    }
+}
+.courses {
+  background-color: $primary-color;
+    .slide-content{
+     padding: 45px 20px;
+          .card{
+           width: 400px !important;
+          }
+    }
+    // #slide{
+      // width: 400px !important;
+    // }
+    .card {
+      border-radius: 25px;
+      background-color: blue;
+      width: calc(100% / 3 - 25px !important); /* Adjust the width accordingly */
+      margin-right: 25px; /* Keep the margin for spacing */
+     }
+   
+}
+.courses{
+   width: 100%;
+    .card{
+     border-radius: 25px;
+     background-color: blue;
+     width: calc(100% / 3 - 25px !important); /* Adjust the width accordingly */
+     margin-right: 25px; /* Keep the margin for spacing */
+     width: 320px !important;
+    }
+}
+
+#slide{
+  width: 320px !important;
+}
+#one .card {
+      width: 376px !important;
+    
+}

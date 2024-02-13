@@ -1,0 +1,103 @@
+
+
+.University {
+     background-color: $primary-color !important;
+        .wrapper{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        }
+        .col.left{
+        padding-right: 60px;
+        max-width: 613px;
+          }
+         .section-title{
+        margin-bottom: 10px;
+        font-size: 28px;
+         }
+        .button-wrapper{
+        margin-top: 32px;      
+        display: flex;
+        flex-wrap: wrap;
+             .btn {
+                margin: 5px;
+                color:#000;
+            }
+        }
+        .col.right {
+            flex: 0 0 430px;
+        }
+        .stats{
+            display: block;       
+         
+           ul {
+              display: flex;
+               flex-wrap: wrap;
+                margin: 0 -1px -1px 0;
+                  li {
+                    flex: 0 0 50%;
+                    border-right: 1px solid rgba(0,0,0,.1);
+                    border-bottom: 1px solid rgba(0,0,0,.1);
+                    color: #10375c;
+                    padding: 20px;
+                    text-align: center;
+                    }
+            } 
+            
+      }
+      img{
+        margin-bottom: 10px;
+      }
+      .value{
+        margin-bottom: 10px;
+        display: block;
+        font-weight: 600;
+        font-size: 30px;
+      }
+      label{
+        display: block;
+        font-size: 15px;
+      }
+
+       
+
+}
+ 
+
+
+@media only screen and (max-width: 870px) {
+  
+    .University .wrapper{
+      flex-wrap: wrap;
+    }
+    .University .col{
+      flex: none;
+      width: 100%;
+      
+    }
+    .wrapper {
+      padding-inline: 1.25rem !important;
+     }
+    .University .col.left {
+       padding: 0 0 40px;
+       max-width: none;
+    }
+    .University .col.right{
+        flex: none;
+    }
+}
+
+@media only screen and (max-width: 290px) {
+    
+  .University .stats ul li {
+    // flex: 0 0 50%;
+    flex:auto
+  }
+  .wrapper{
+    padding: 0 10px;
+  }
+  .text{
+    width:150px;
+  }
+
+}

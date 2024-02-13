@@ -1,0 +1,198 @@
+#footer2 {
+  width: 100%;
+  /*.overlay::before,.overlay::after
+   position: absolute;
+   content: '';
+    height: 40px;
+   bottom: -40px;
+   width: 40px;
+   right: 0;
+   background-color: red;
+   }
+    .overlay::after{
+     border-radius: 0 25px 0px 0px;
+     background-color: olivedrab;
+    //  }
+    */
+}
+#footer2 .card {
+  border-radius: 25px;
+  width: 320px;
+  top: 0em;
+}
+#footer2 .image-content, #footer2 .card-content {
+  padding: 10px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  left: 0px;
+  bottom: 0em;
+}
+#footer2 .card-image {
+  position: relative;
+  width: 100%;
+  border-radius: 50%;
+  background: rebeccapurple;
+  height: 262px;
+}
+#footer2 .description {
+  font-size: 14px;
+  color: blueviolet;
+  text-align: center;
+}
+#footer2 .card-image .card-img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+#footer2 .name {
+  font-size: 18px;
+  font-weight: 600;
+  left: 0%;
+  bottom: 10px;
+  color: white;
+  text-align: center;
+}
+#footer2 .slide-content {
+  margin: 0 40px;
+  padding: 45px 20px;
+  overflow: hidden;
+}
+#footer2 .button:hover {
+  background: green;
+}
+#footer2 .overlay {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  border-radius: 25px 25px 0 25px;
+}
+#footer2 .image-content {
+  position: relative;
+  row-gap: 5px;
+  border-radius: 25px 25px 0 25px;
+  top: 0em;
+}
+#footer2 .button-section {
+  position: relative;
+  width: 100%;
+  background-color: #86162d;
+  top: -10px;
+  border-radius: 0px 0px 10px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#footer2 .button-section .buton {
+  position: relative;
+}
+#footer2 .button-section .buton .button {
+  border: none;
+  font-size: 12px;
+  color: violet;
+  padding: 8px 16px;
+  margin: 14px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border-radius: 6px;
+  background: orange;
+  margin: 14px;
+}
+
+#footer2 {
+  width: 100%;
+  /* .parent div:nth-child(3) h2 { */
+}
+#footer2 .slide-container {
+  max-width: 1280px;
+  width: 100%;
+}
+#footer2 .swiper-navBtn {
+  color: olivedrab;
+  transition: color 0.3s ease;
+}
+#footer2 .swiper-navBtn:hover {
+  color: yellow;
+}
+#footer2 .swiper-navBtn::before,
+#footer2 .swiper-navBtn::after {
+  font-size: 40px;
+}
+#footer2 .swiper-button-next {
+  right: 0;
+}
+#footer2 .swiper-button-prev {
+  left: 0;
+}
+#footer2 .swiper-pagination-bullet {
+  background-color: aqua;
+  opacity: 1;
+}
+#footer2 .card .swiper-slide .card:nth-child(2) {
+  background-color: pink;
+}
+
+#footer2 {
+  width: 100%;
+  background-color: #f8f4f5;
+}
+#footer2 .buton {
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  background-color: #86162d;
+  cursor: pointer;
+}
+#footer2 .buton .button1 {
+  background-color: #04AA6D;
+}
+
+#footer2 {
+  width: 100%;
+}
+#footer2 .card-content {
+  bottom: 4em;
+}
+#footer2 .middle-section {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 900px;
+  text-align: center;
+}
+#footer2 .section-titles {
+  text-align: center;
+  font-size: 24px;
+  padding-bottom: 20px;
+}
+#footer2 .community {
+  font-size: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .slide-content {
+    margin: 0 10px;
+  }
+  .swiper-navbtn {
+    display: none;
+  }
+}
+@media only screen and (max-width: 670px) {
+  #footer2 .button-section .buton {
+    display: block;
+  }
+}
+@media only screen and (max-width: 590px) {
+  #footer2 .slide-content {
+    display: flex;
+    flex-direction: column;
+  }
+}/*# sourceMappingURL=_footer2.css.map */

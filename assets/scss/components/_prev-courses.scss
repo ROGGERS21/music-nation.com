@@ -1,0 +1,156 @@
+
+.card{
+    border-radius: 25px;
+    background-color: blue;
+    width: 320px; 
+}
+.image-content,.card-content{
+    padding: 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card-image{
+    position: relative;
+    height: 150px;
+    width: 150px;
+    // border-radius: 50%;
+    // background: rebeccapurple;
+    height: 250px;
+    width: 100%;
+    max-width: 400px;
+}
+.description{
+    font-size: 14px;
+    color: blueviolet;
+    text-align: center;
+}
+.name{
+    font-size: 18px;
+    font-weight: 600;
+    color: #333;
+    position: absolute;
+    bottom: 10px;
+    left:31%;
+}
+
+
+.card-image .card-img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    // border-radius: 50%;
+    // border: 4px solid red;
+    border-radius: 24px;
+}
+.slide-content{
+    margin: 0px;
+    padding: 45px 20px;
+    // background: #77c70f;
+    overflow: hidden; 
+}
+.button:hover{
+    background: green;
+}
+.overlay{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left:0;
+ 
+    top:0;
+    background-color: #9b0ea8;
+    border-radius: 25px 25px 0 25px;
+    display: none;
+
+}
+
+.overlay::before,.overlay::after{
+position: absolute;
+content: '';
+height: 40px;
+bottom: -40px;
+width: 40px;
+right: 0;
+background-color: red;
+display: none;
+}
+.overlay::after{
+    border-radius: 0 25px 0 0;
+    background-color: olivedrab;
+    display: none;
+}
+.image-content{
+    position: relative;
+    row-gap: 5px;
+    border-radius: 25px 25px 0 25px;
+}
+
+.button{
+border: none;
+font-size: 12px;
+color:violet;
+padding: 8px 16px;
+margin: 14px;
+cursor: pointer;
+transition: all 0.3s ease;
+border-radius: 6px;
+background: orange;
+margin: 4px;
+/* background: blue; */
+}
+
+.slide-container{
+    max-width: 1280px;
+    width: 100%;
+    // background: grey;
+}
+
+
+.swiper-navBtn{
+    color: olivedrab;
+    transition: color 0.3s ease;
+}
+
+.swiper-navBtn:hover{
+    color: yellow;
+
+}
+
+.swiper-navBtn::before,
+.swiper-navBtn::after{
+    font-size: 40px;
+}
+
+.swiper-button-next{
+    right: 0;
+    padding-right:20px;
+
+}
+
+.swiper-button-prev{
+    left: 0;
+    padding-left:20px;
+}
+
+.swiper-pagination-bullet{
+    background-color: aqua;
+    opacity: 1;
+}
+
+.swiper-pagination-bullet-active{
+    background-color: olivedrab;
+}
+
+.slide-container .swiper-slide:nth-child(3) h2 {
+   display: none;
+}
+
+@media screen and (max-width: 768px) {
+    .slide-content{
+        margin: 0 10px;
+    }
+    .swiper-navbtn{
+       display: none;
+    }
+}

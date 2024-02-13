@@ -1,0 +1,152 @@
+.partnership{
+    width: 100%;
+    background-color: #ffff;
+        .wrapper{
+        display: flex;
+        align-items: left;
+        justify-content: center;
+        height: 30vh;
+        flex-direction: column;
+        
+  }
+}
+.slider {
+    height: 110px;
+    margin:0 auto;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    background: #ffffff;
+}
+.slider .slide-track{
+    -webkit-animation: scroll 15s linear infinite;
+    animation: scroll 5s linear infinite;
+    animation: scroll 30s linear infinite;
+    display: flex;
+    width: calc(250px * 14);
+    gap:1em;
+}
+
+.slider .slide{
+    height: 100px;
+    width: 250px;
+}
+
+.slider .slide img{
+    width:100%;
+    border-radius: 10px;
+    border: 2px solid green;
+    height: 100px;
+    width: 200px;
+    height: 100px;
+}
+
+/*---aditional info--*/
+.slider .slide:nth-child(*){
+    animation-delay: 30s;
+}
+.slider .slide-track {
+    display: flex;
+    animation: scroll 60s linear infinite;
+    animation-delay: 5s; /* Delay the entire animation by 5 seconds */
+}
+
+
+@keyframes scroll {
+   0% {
+    transform: translate(0);
+   }
+   100% {
+    transform: translate(calc(-25px * 2)); 
+    /* transform: translate(calc); */
+    transform: translate(-100%); 
+    } 
+ } 
+
+
+/*----slide-section---*/
+.owl-carousel .owl-item img {
+    display: block;
+    width: 100%;
+}
+
+.partnership .section-title{
+   font-size: 30px;
+}
+.partnership {
+    background-color: #ffffff !important;
+}
+
+
+@media only screen and (max-width: 670px) {
+
+    .slider {
+        margin: 0 auto;
+    }
+    .partnership .wrapper {
+        height: 29vh;
+    }
+    .partnership .section-title {
+        font-size: 24px;
+    }
+    .slider .slide img{
+        width: 314px;
+        height: 100px;
+    }
+    
+
+}
+
+@media only screen and (max-width: 570px) {
+    .section-title {
+        font-size: 20px;
+    }
+    p{
+        font-size: 18px;
+    }
+    .content-wrapper{
+        padding: 20px 0px;
+    }
+    .section-title.regular{
+        font-size: 25px;
+    }
+    .slider .slide img {
+        width: 259px;
+        height: 100px;
+    }
+
+
+}
+@media only screen and (max-width: 490px) {
+
+    .slider .slide img {
+        width: 229px;
+        height: 100px;
+    }
+    .text{
+        left:31%;
+    }
+    
+}
+
+
+
+@media only screen and (max-width: 390px) {
+
+    .slider .slide img {
+        width: 138px;
+        height: 100px;
+    }
+    .programmes{
+        font-size: 16px;
+    }
+}
+@media only screen and (max-width: 300px) {
+
+    .slider .slide img {
+        width: 120px;
+        height: 100px;
+    }
+}
+
+

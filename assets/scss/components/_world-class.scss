@@ -1,0 +1,73 @@
+
+.content-wrapper{
+  padding: 60px 0px;
+  background-color: none;
+      &__world{
+         // background: green;     
+         background-image: url(https://botswana.bothouniversity.com/wp-content/themes/botho-university/images/banners/sep-banner.jpg);
+         background-position: center;
+         background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+        height: 280px;
+        padding: 0px;
+     }
+     p{
+        font-size: 30px;
+      //   color:$primary-color;
+     }
+}
+.education{
+   text-align: center;
+}
+.content-wrapper__world{
+   // background-image: url(https://botswana.bothouniversity.com/wp-content/themes/botho-university/images/banners/sep-banner.jpg);
+  background-image: none;
+}
+#world{
+   // background-image: url(https://botswana.bothouniversity.com/wp-content/themes/botho-university/images/banners/sep-banner.jpg);
+   background-color: none;
+}
+
+#world{
+   // background-image: url("");
+   background-image: url("https://botswana.bothouniversity.com/wp-content/themes/botho-university/images/banners/sep-banner.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+@media only screen and (max-width: 1100px) {
+   
+   #world{
+      min-height: 250px;
+
+      background-size: 100% 100%;
+      // background-size: cover;
+      padding:0px;
+
+   }
+   .content-wrapper p{
+       font-size: 23px;
+   }
+   .wrapper{
+      padding-inline: 20px;
+   }
+ }
+
+@media only screen and (max-width: 1000px) {
+
+   #world{
+      // height:250px;
+      height:50%;
+   }
+}
+@media only screen and (max-width: 570px) {
+   #world {
+       min-height: 140px;
+       height: 100px;
+   }
+}
